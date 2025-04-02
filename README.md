@@ -5,6 +5,7 @@ Rust implementation of the Hindley-Milner type checker described in Oleg's artic
 
 See [sound_eager.rs](./src/sound_eager.rs) with all tests
 
-unsound.rs TODO
-
-sound_lazy.rs TODO
+TODO
+- unsound.rs
+- sound_lazy.rs
+- Can we do it without using Rc?
