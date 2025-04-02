@@ -16,8 +16,8 @@ type Varname = String;
 enum Exp {
     Var(Varname),
     App(Box<Exp>, Box<Exp>),
-    Lam(String, Box<Exp>),
-    Let(String, Box<Exp>, Box<Exp>),
+    Lam(Varname, Box<Exp>),
+    Let(Varname, Box<Exp>, Box<Exp>),
 }
 
 type QName = String;
